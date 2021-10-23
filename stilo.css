@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    
+}
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;   
+    background-image: url(../order-summary-component-main/wave-haikei.svg); 
+    background-size: cover;
+}   
+.contenedor{
+    background-color: white;
+    width: 60vh;
+    height: 80vh;
+    border-radius: 1rem;
+    -webkit-box-shadow: 3px 0px 25px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 0px 25px -6px rgba(0,0,0,0.75);
+    box-shadow: 3px 0px 25px -6px rgba(0,0,0,0.75);
+}
+.img{  
+    width: 60vh; 
+    height: 30vh;
+    border-radius: 1rem 1rem;
+}
+.textos{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;    
+    flex-direction: column;
+}
+.titulo{
+    text-align: center;
+    font-weight: 900;
+}
+.infor{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 16px;
+    color: rgb(156, 157, 160)
+}
+.planes{
+    display: flex;
+    margin: 20px 20px;    
+    justify-content: center;
+    
+}
+.todoplanes{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.nose{
+    margin-left: 60px;
+}
+.plan{
+    margin-bottom: -8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.precios{
+    color: rgb(156, 157, 160);
+    margin-top: 10px;
+    font-size: 14px;
+}
+.icono-musica{
+    margin-right: 20px;
+}
+.change{
+    font-size: 14px;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border: none;
+    margin-top: 40px;
+    
+}
+.comprar{
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 40vh;
+    height: 5vh;    
+    padding: 10px;   
+    font-family: 'Red Hat Display', sans-serif; 
+    font-size: 16px;
+}
+.cancelar{
+    border: none;
+    border-radius: 15px;
+    color:hsl(240, 1%, 36%); 
+    font-family: 'Red Hat Display', sans-serif;    
+    font-size: 14px;     
+}
